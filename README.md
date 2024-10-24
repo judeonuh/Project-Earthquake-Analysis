@@ -52,7 +52,7 @@ ___
 SELECT *
 FROM earthquake_tb;
 ```
-![Total number of earthquake]()
+![Total number of earthquake](earthquake_1.png)
 
 An initial SELECT statement on the data reveals that natural phenomena were the leading causes of earthquake. However, it is not immediately clear if these are completely random occurrences or if natural factors (like temperature, topography, etc.) influenced the frequency and magnitude of the earthquakes.
 
