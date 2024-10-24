@@ -27,20 +27,27 @@ ___
 
 ### Data Sources
 ___
-Datasets for this project are stored on the 'dbin_earthquakke_1' and 'dbin_earthquakke_2' files in this repository.
+Datasets for this project are stored on the 'dbin_earthquakke_1' and 'dbin_earthquakke_2' files and can be downloaded [here](https://drive.google.com/drive/folders/1ybqvCbjfRq_taRmKwju3S0kqr_XuyWAu?usp=drive_link).
 
 
 ### Usage Instructions
 ___
 - Data analysis was performed on MySQL workbench. MySQL Workbence can be downloaded and installed [here](https://dev.mysql.com/downloads/workbench/).
-- Ensure all data files are located in the same directory and maintain a consistent naming pattern for all files.
+- On windows machine, enter ``` Windows + E ``` and paste the file path ```C:/ProgramData/MySQL/MySQL Server 8.0/Uploads``` on the file address to go into 'Uploads' folder.
+- While in the 'Uploads' folder, create a folder named 'input_files' and copy the downloaded dataset files into this folder 
+> [!CAUTION]
+> You must perform the Steps above before running the script.
+- Open the "earthquake_project_MySQL_queries.sql" on your Database Management System and run the script 
 > [!WARNING]
-> Saving files on an online platform (e.g. OneDrive) could cause any link in the file to load slower, throwing up warning alerts.
+> Run each block of code individually
+- 
+> [!NOTE]
+> Step four above should automatically create and load the datasets into a database and table. 
 
 
 ### Data Cleaning and Preprocessing
 ___
-Data was cleaned using 'trim' function to remove trailing whitespaces; 'ifferror' to assign values to empty cells that may return '#N/A' errors. 
+Dataset has been pre-cleaned. All duplicate, null values and trailing whitespaces removed. 
 
 ### Data Analysis
 ___
