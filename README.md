@@ -9,7 +9,6 @@ ___
 - [Usage Instructions](#usage-instructions)
 - [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
 - [Data Analysis](#data-analysis)
-- [Results and Discussions](#results-and-discussions)
 - [Recommendations](#recommendations)
 - [References](#references)
 - [License](#license)
@@ -37,12 +36,9 @@ ___
 - While in the 'Uploads' folder, create a folder named 'input_files' and copy the downloaded dataset files into this folder 
 > [!CAUTION]
 > You must perform the Steps above before running the script.
-- Open the "earthquake_project_MySQL_queries.sql" on your Database Management System and run the script 
+- Open the "earthquake_project_MySQL_queries.sql" on your Database Management System and run the script. This should automatically create and load the datasets into a database and table.
 > [!WARNING]
 > Run each block of code individually
-- 
-> [!NOTE]
-> Step four above should automatically create and load the datasets into a database and table. 
 
 
 ### Data Cleaning and Preprocessing
@@ -51,13 +47,14 @@ Dataset has been pre-cleaned. All duplicate, null values and trailing whitespace
 
 ### Data Analysis
 ___
+- Result 1
 ```SQL
 SELECT *
-FROM table;
+FROM earthquake_tb;
 ```
+![Total number of earthquake]()
 
-### Results and Discussions
-___
+An initial SELECT statement on the data reveals that natural phenomena were the leading causes of earthquake. However, it is not immediately clear if these are completely random occurrences or if natural factors (like temperature, topography, etc.) influenced the frequency and magnitude of the earthquakes.
 
 ### Recommendations
 ___
