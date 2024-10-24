@@ -49,8 +49,10 @@ Dataset has been pre-cleaned. All duplicate, null values and trailing whitespace
 ___
 - Result 1
 ```SQL
-SELECT *
-FROM earthquake_tb;
+SELECT DISTINCT cause, COUNT(cause) AS 'occurrence'
+FROM earthquake_tb
+GROUP BY cause
+ORDER BY occurrence desc;
 ```
 ![Total number of earthquake](earthquake_1.png)
 
