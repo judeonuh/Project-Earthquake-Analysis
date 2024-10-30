@@ -1,6 +1,10 @@
 # Earthquake Analysis
 ___
 
+### Description
+___
+This project collected and analysed earthquake data across several countries around the globe for a period of 50 years (1969 -2018).
+
 ### Table of Contents
 ___
 - [Description](#description)
@@ -13,10 +17,6 @@ ___
 - [References](#references)
 - [License](#license)
 
-
-### Description
-___
-This project collected and analysed earthquake data across several countries around the globe for a period of 50 years (1969 -2018).
 
 ### Technologies
 ___
